@@ -12,6 +12,10 @@
   <remote name="los"
           fetch="https://github.com/LineageOS"
           revision="lineage-16.0" />
+  
+  <remote  name="Guido83"
+           fetch="https://github.com/Guido83"
+           revision="p9.0" />
 
   <remote  name="omnirom"
            fetch="https://github.com/omnirom"
@@ -178,7 +182,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="Guido83" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="BlissRoms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" />
